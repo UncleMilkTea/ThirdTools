@@ -1,9 +1,5 @@
 //
 //  AuthcodeView.m
-//  srd
-//
-//  Created by p2p on 16/4/13.
-//  Copyright © 2016年 shengrongdai. All rights reserved.
 //
 
 #import "AuthcodeView.h"
