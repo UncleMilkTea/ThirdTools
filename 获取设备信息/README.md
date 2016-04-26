@@ -5,6 +5,8 @@
 
 - 需要导入Security.framework
 - 需要给KeychainItemWrapper.m 添加-fno-objc-arc
+
+
 // 单例
 + (instancetype)sharedDeviceInfo;
 //! 获取UUID
