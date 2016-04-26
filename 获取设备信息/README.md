@@ -7,15 +7,16 @@
 - 需要给KeychainItemWrapper.m 添加-fno-objc-arc
 
 
-// 单例
+
 + (instancetype)sharedDeviceInfo;
-//! 获取UUID
+//! 单例
 - (NSString *)identifier;
+//! 获取UUID
+- (NSString *)phoneModel;
 //! 获取手机别名
 - (NSString *)phoneName;
 //! 手机型号
-- (NSString *)phoneModel;
-//! 手机系统版本
 - (NSString *)phoneVersion;
-//! 设备版本
+//! 手机系统版本
 - (NSString*)deviceVersion;
+//! 设备版本
