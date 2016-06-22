@@ -1,9 +1,7 @@
 //
 //  CreateQRCode.m
-//  srd
 //
-//  Created by iMac on 16/6/22.
-//  Copyright © 2016年 shengrongdai. All rights reserved.
+//  Created by suger on 16/6/22.
 //
 
 #import "CreateQRCode.h"
