@@ -1,0 +1,2 @@
+//    字符转为二维码
+    self.imageView.image = [QRCodeGenerator qrImageForString:self.textfield.text imageSize:self.imageView.bounds.size.width];
